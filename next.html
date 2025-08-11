@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Daily Conundrum</title>
+  <link href="cryptic2.css" rel="stylesheet" type="text/css">
+  <script>
+    function checkPassword() {
+      const correctPassword = "Blazing Saddles"; // Change this to your desired word
+      const userInput = document.getElementById("password").value;
+
+      if (userInput === correctPassword) {
+        window.location.href = "https://www.youtube.com/watch?v=OzHByHwV-8o"; // Replace with your target page
+      } else {
+        alert("Incorrect. Please try again.");
+      }
+    }
+  </script>
+</head>
+<body>
+  <h2>I'll try to stay away from spoilers, so I won't really get into what happens, but I think the ending of the movie is one of the goofiest things I have seen in a while, and I absolutely love it. First there's the scene with the town, which is just kind of fun, but afterwards, it gets crazy. The things they do are just so clever and I was laughing the whole time.
+Definitely go watch this movie(I think it's on Hulu) because it's pretty funny. I will say that there are a few jokes about rape that really didn't land for me, so I guess it has aged a bit in terms of that, but it's still a great movie.</h2>
+  <input type="normal" id="password" placeholder="Enter solution">
+  <button onclick="checkPassword()">Submit</button>
+</body>
+</html>
