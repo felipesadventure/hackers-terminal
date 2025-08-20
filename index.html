@@ -6,11 +6,11 @@
   <link href="cryptic2.css" rel="stylesheet" type="text/css">
   <script>
     function checkPassword() {
-      const correctPassword = "Muscleman"; // Change this to your desired word
+      const correctPassword = "password"; // Change this to your desired word
       const userInput = document.getElementById("password").value;
 
       if (userInput === correctPassword) {
-        window.location.href = "https://www.youtube.com/watch?v=OzHByHwV-8o"; // Replace with your target page
+        window.location.href = "https://youtu.be/BSXFH543V6c"; // Replace with your target page
       } else {
         alert("Incorrect. Please try again.");
       }
@@ -18,9 +18,12 @@
   </script>
 </head>
 <body>
-  <h2>Welcome to the Anonymous Hackers Terminal! During each leg of your journey, you will recieve the name of a subpage. It will look like this: | /example | To view this page, simply add it to the end of the URL and search it. Example: | felipesadventure.net/example | </h2>
-  <h2>Upon reaching each page, you will need to retrieve a password to move on. How you obtain that password will vary each time. Passwords will be all lowercase, and no spaces. If you understand, enter "password" to continue.</h2>
-  <input type="normal" id="password" placeholder="Enter ''password''">
-  <button onclick="checkPassword()">Submit</button>
+  <h2>Welcome to the Anonymous Hackers Terminal! During each leg of your journey, you will recieve the name of a subpage. It will look like this: </h2>
+  <h2> <u>/example</u> </h2>
+    <h2>To view this page, simply replace the end of this URL and search it. It will look like this: </h2>
+    <h2>felipesadventure.github.io/hackers-terminal/<u>example</u> </h2>
+  <h2>Upon reaching each page, you will need to complete a task to retrieve a password to move on. Passwords will be all lowercase, and no spaces. If you understand, enter "password" to continue.</h2>
+  <input type="normal" id="password" placeholder="Enter ''password''"style="font-size: 20px;">
+  <button onclick="checkPassword()" style="font-size: 20px;">Submit</button>
 </body>
 </html>
